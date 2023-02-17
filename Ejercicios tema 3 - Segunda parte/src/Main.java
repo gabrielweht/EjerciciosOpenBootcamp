@@ -8,3 +8,15 @@ public class Main {
         System.out.println("Mi coche tiene " + miCoche.puertas + " puertas");
     }
 }
+
+class Coche {
+    public int puertas = 0;
+
+    Coche() {
+    }
+
+    public void sumaPuertas() {
+        ++this.puertas;
+    }
+}
+
